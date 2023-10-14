@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+#ball {
+    width: 150px;
+    height: 150px;
+    background-color:red;
+    border-radius: 50%;
+    position: absolute;
+    text-align: center;
+    transition: all 0.3s ease; /* Smooth transition */
+}
+#textinside{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position:relative;
+}
